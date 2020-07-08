@@ -1,0 +1,15 @@
+.perfil {
+  width: 90vw;
+  background-color: #f4f4f4;
+  border-radius: 5%;
+} 
+
+#perfil {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  #perfil {
+    font-size: 1.8rem;
+  }
+}

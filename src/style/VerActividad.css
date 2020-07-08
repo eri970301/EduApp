@@ -1,0 +1,23 @@
+.plus{
+    transform: scale(1.5);
+    color: gray;
+}
+
+.back-activity{
+    position: absolute;
+    transform: scale(2);
+    left: 28px;
+    top: 80px;
+    color: gray;
+}
+
+@media only screen and (min-width:990px){
+    #cont-ver-actividad{
+        width: 70%;
+        margin-left: 27%;
+    }
+
+    .back-activity{
+        left: 32%;
+    }
+}

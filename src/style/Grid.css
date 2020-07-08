@@ -1,0 +1,13 @@
+.grid {
+  border-radius: 30%; 
+  background-color:  #6EB62C; 
+}
+
+.icon{
+  transform: scale(1.1);
+}
+
+#grid{
+  height: 110px;
+}
+

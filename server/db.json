@@ -1,0 +1,87 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "email": "pepe@pepe.com",
+      "nombre": "Pepe Oliveira",
+      "institucion": "Los Molinitos",
+      "password": "123456",
+      "profesion": "maestro",
+      "avatar": ""
+    },
+    {
+      "nombre": "Erika pelotuda pelotudos abc",
+      "institucion": "hospital mental",
+      "email": "erikaabc@hotmail.com",
+      "password": "123456",
+      "numero": "304958746",
+      "avatar": "",
+      "id": 2
+    },
+    {
+      "nombre": "juan chorrillo de las casas abelardo",
+      "institucion": "hospital psiquiatrico",
+      "email": "juangatitossuperfuertes@hotmail.com",
+      "password": "juanjuanjuan",
+      "numero": "304987475",
+      "avatar": "",
+      "id": 3
+    }
+  ],
+  "aulas": [
+    {
+      "id": 1,
+      "nombre_materia": "Matemáticas",
+      "descripcion": "espacio para disfrutar de los numeros",
+      "grado": "Octavo",
+      "participantes": 23,
+      "usuario": 1
+    },
+    {
+      "nombre_materia": "Artes",
+      "descripcion": "Se podra pintar, y esculpir obras de arte",
+      "grado": "Noveno",
+      "participantes": 24,
+      "usuario": 1,
+      "id": 2
+    },
+    {
+      "nombre_materia": "Ingles",
+      "descripcion": "aprende un segundo idioma",
+      "grado": "quinto",
+      "participantes": 24,
+      "usuario": 1,
+      "id": 3
+    },
+    {
+      "descripcion": "",
+      "grado": "",
+      "participantes": 24,
+      "usuario": 1,
+      "id": 4
+    }
+  ],
+  "actividades": [
+    {
+      "id": 1,
+      "nombre_actividad": "logica aritmerica",
+      "fecha_limite": "04/07/2020",
+      "descripcion": "mandar captura del ejercicio 1",
+      "aula": 1
+    },
+    {
+      "nombre_actividad": "pintura",
+      "fecha_limite": "2020-07-03",
+      "descripcion": "pintar la pagina 20 del libro de entusiasmat",
+      "aula": 1,
+      "id": 2
+    },
+    {
+      "nombre_actividad": "video ",
+      "fecha_limite": "",
+      "descripcion": "enviar un vídeo diciendo los numero en ingles",
+      "aula": 1,
+      "id": 3
+    }
+  ]
+}

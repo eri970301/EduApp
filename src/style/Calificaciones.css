@@ -1,0 +1,91 @@
+.cont-name-student{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.letter-name{
+    width: 40px;
+    background-color: #525252;
+    color: #fff;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-name{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    background: #a29fa5;
+    border-radius: 20px;
+    width: 87%;
+}
+
+.cont-img{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.date-send{
+    width: 90%;
+    margin: auto;
+}
+
+.cont-comment{
+    width: 90%;
+    margin: auto;
+}
+
+.button-send{
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 12px;
+    width: 90%;
+    border: 0px;
+    background-color: #77D353;
+}
+
+.arrow-cali{
+    position: absolute;
+    transform: scale(2);
+    color: gray;
+    left: 18px;
+    top: 80px;
+}
+
+@media only screen and (min-width:990px){
+    #cont-calificaciones{
+        width: 70%;
+        margin-left: 27%;
+        margin-top: -9%;
+    }
+
+    .cont-name-student {
+        margin-top: 18%;
+        margin-left: 69px;
+    }
+
+    .button-send {
+        margin-left: 34px;
+    }
+
+    .arrow-cali{
+        left: 29%;
+        top: 50px;
+    }
+}
+
+
+@media only screen and (min-width:1200px){
+    .arrow-cali{
+        left: 416px;
+        top: 62px;
+    }
+    
+
+}

@@ -1,0 +1,38 @@
+.Pinkborder{
+  border: 2px solid #F95F62 ;
+  background-color: #f4f4f4;
+}
+
+.Blueborder{
+  border:2px solid#207DDC ;
+  background-color: #f4f4f4;
+}
+
+.Greenborder{
+  border:2px solid#6EB62C;
+  background-color: #f4f4f4;
+}
+
+#IndividualRoom {
+  height: 230px;
+}
+
+.arrow-tus-aulas{
+  position: absolute;
+  transform: scale(3);
+  left: 35px;
+  top: 30px;
+  color: gray;
+}
+
+.tusaulas {
+  background-color: #f4f4f4;
+  margin: 15px;
+  border-radius: 5%;
+}
+
+@media only screen and (min-width:990px){
+  .arrow-tus-aulas{
+    left: 130px;
+  }
+}
